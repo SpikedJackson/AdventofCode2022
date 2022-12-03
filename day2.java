@@ -18,6 +18,7 @@ public class day2 {
             } else if(player==elf+1 || player==elf-2){
                 total+=6;
             }
+            //part 2
             if(player==2){
                 total2+=3;
                 total2+=elf;
@@ -36,7 +37,9 @@ public class day2 {
                 }
             }
         }
+        //part 1
         System.out.println(total);
+        //part 2
         System.out.println(total2);
     }
 }
