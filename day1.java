@@ -32,6 +32,9 @@ public class day1 {
                 temp = 0;
             }
         }
+        // part1
+        System.out.println(max3);
+        // part2
         System.out.println(max1 + max2 + max3);
     }
 }
