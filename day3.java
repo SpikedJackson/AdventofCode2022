@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class day3 {
     public static void main(String[] args) throws FileNotFoundException {
+        // part1
         File myObj = new File("src/input3.txt");
         Scanner myReader = new Scanner(myObj);
         int total = 0;
-        // part1
         while (myReader.hasNextLine()) {
             String data = myReader.nextLine();
             String list1 = data.substring(0, data.length() / 2);
