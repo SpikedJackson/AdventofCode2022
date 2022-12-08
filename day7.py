@@ -1,3 +1,4 @@
+# open file
 with open("input7.txt") as f:
     lines = f.readlines()
 
